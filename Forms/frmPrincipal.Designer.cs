@@ -54,15 +54,16 @@ namespace Projeto_CShap_Com_SQL.Forms
             this.button2.UseVisualStyleBackColor = true;
             this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
-            // FormPrincipal
+            // frmPrincipal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(644, 160);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.btnSincronizar);
-            this.Name = "FormPrincipal";
-            this.Text = "FormPrincipal";
+            this.Name = "frmPrincipal";
+            this.Text = "Tela inicial";
+            this.Load += new System.EventHandler(this.frmPrincipal_Load);
             this.ResumeLayout(false);
 
         }

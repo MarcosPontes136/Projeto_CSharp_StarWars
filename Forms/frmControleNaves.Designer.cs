@@ -148,7 +148,7 @@ namespace Projeto_CShap_Com_SQL.Forms
             this.dgvPilotos.Size = new System.Drawing.Size(717, 157);
             this.dgvPilotos.TabIndex = 10;
             // 
-            // FormControleNaves
+            // frmControleNaves
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -164,8 +164,8 @@ namespace Projeto_CShap_Com_SQL.Forms
             this.Controls.Add(this.btnBuscarNave);
             this.Controls.Add(this.txtNomeNave);
             this.Controls.Add(this.NomeNave);
-            this.Name = "FormControleNaves";
-            this.Text = "FormControleNaves";
+            this.Name = "frmControleNaves";
+            this.Text = "Controle de Naves";
             this.Load += new System.EventHandler(this.FormControleNaves_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dgvNaves)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dgvPilotos)).EndInit();

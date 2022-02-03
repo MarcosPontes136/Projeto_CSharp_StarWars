@@ -27,5 +27,10 @@ namespace Projeto_CShap_Com_SQL.Forms
             var frm = new frmControleNaves();
             frm.ShowDialog();
         }
+
+        private void frmPrincipal_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

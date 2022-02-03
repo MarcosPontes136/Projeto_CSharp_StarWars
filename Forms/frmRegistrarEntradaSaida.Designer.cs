@@ -211,7 +211,7 @@ namespace Projeto_CShap_Com_SQL.Forms
             this.Controls.Add(this.lvAlertas);
             this.Controls.Add(this.btnRegistrar);
             this.Name = "frmRegistrarEntradaSaida";
-            this.Text = "FormRegistroEntradaSaida";
+            this.Text = "Registro de Entrada e Saida";
             this.Load += new System.EventHandler(this.frmRegistrarEntradaSaida_Load_2);
             this.ResumeLayout(false);
             this.PerformLayout();
